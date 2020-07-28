@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Pattaya&family=Poppins&family=Sen&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* Nav */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background: #9da39f;
+}
+.logo {
+  text-decoration: none;
+  color: rgb(85, 131, 77);
+  font-family: "Sen", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  display: flex;
+  font-style: italic;
+}
+.navlinks {
+  list-style: none;
+}
+.navlinks li {
+  display: inline-block;
+  padding: 0px 20px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #e6e3e3;
+}
+.navlinks li a {
+  transition: all 0.5s ease 0s;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #e6e3e3;
+}
+.navlinks li a:hover {
+  color: hsl(314, 9%, 28%);
+}
+.logo h2 {
+  padding: 0.2rem;
+  bottom: 1rem;
+  left: 0.6rem;
+  font-family: "Pattaya", sans-serif;
+  letter-spacing: 1.8px;
+}
+.logo img {
+  width: 3.9rem;
+  height: 2.9rem;
+}
+.contact {
+  border-radius: 11px;
+  background-color: rgb(42, 99, 153);
+  padding: 13px 11px;
+  width: 110px;
+  border: none;
+  transition: all 0.5s ease 0s;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #e6e3e3;
+}
+.contact:hover {
+  transform: scale(1.1);
+  opacity: 0.87;
+}
+.fa-envelope {
+  margin-right: 3px;
+}
+
+/* Welcome section */
+.welcome {
+  background: linear-gradient(rgba(0, 0, 0, 0.288), transparent),
+    url("/img/gray-laptop.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 36rem;
+  text-align: center;
+  color: rgb(84, 122, 192);
+  padding-top: 15rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  flex-direction: column;
+}
+
+/* Recent section */
+.recent {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(218, 170, 99, 0.486);
+}
+.card {
+  width: 47%;
+  border-radius: 22px;
+  border: 3px solid rgb(196, 176, 176);
+  display: inline-block;
+  margin: 2rem;
+  padding: 3rem;
+}
+/* Form section */
+.send {
+  border: none;
+  background-color: rgb(45, 34, 87);
+  cursor: pointer;
+  padding: 1.5rem;
+  color: rgb(72, 159, 209);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  border-radius: 11px;
+  transition: all 0.5s ease 0s;
+}
+.send:hover {
+  color: #9da39f;
+  background-color: rgba(45, 34, 87, 0.97);
+}
+/*Form*/
+form {
+  align-items: center;
+  justify-content: center;
+  display: flexbox;
+  text-align: center;
+}
+.input-name {
+  color: blue;
+}
+/* Footer */
+footer {
+  display: flex;
+  background: #9da39f;
+  padding: 30px 10%;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  color: rgb(49, 45, 88);
+}
