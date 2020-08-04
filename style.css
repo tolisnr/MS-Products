@@ -132,9 +132,6 @@ form {
   display: flexbox;
   text-align: center;
 }
-.input-name {
-  color: blue;
-}
 /* Footer */
 footer {
   display: flex;
