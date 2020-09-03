@@ -46,8 +46,9 @@
     <script>
         var typed = new Typed('#typed', {
           stringsElement: '#typed-strings',
-          backSpeed: 40,
-          typeSpeed: 40
+          backSpeed: 60,
+          typeSpeed: 60,
+          loop: true
         });
       </script>
     <!--End of welcome-->
@@ -77,10 +78,10 @@
 
     <!--Contact Form-->
     <form method="POST" id="form" netlify>
-        <input type="name" placeholder="Το όνομα σας" class="input-name" required><br>
-        <input type="email" placeholder="Το email σας" class="input-email" required><br>
-        <input type="text" placeholder="Το μήνυμα σας"><br>
-        <button type="submit" class="send">Send</button>
+        <input type="name" name="name" placeholder="Το όνομα σας" class="input-name" required><br>
+        <input type="email" name="email" placeholder="Το email σας" class="input-email" required><br>
+        <textarea name="description" rows="10" cols="30"></textarea>
+        <button class="send">Send</button>
     </form>
     <!--End of contact form-->
 
