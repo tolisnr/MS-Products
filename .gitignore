@@ -3,3 +3,9 @@
 
 # Project Javascript file
 projects.js
+
+# Typed.js
+/node_modules
+
+# Package Lock
+package-lock.json

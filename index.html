@@ -11,6 +11,7 @@
     <link rel="icon" href="img/microsoft.svg">
     <link href="./style.css" type="text/css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/648caea1e3.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 </head>
 <body>
 
@@ -38,10 +39,17 @@
     <!--End of header-->
 
     <!--Welcome-->
-    <section class="welcome">
-            <h2>Καλωσήρθατε στο MS Products</h2>
-            <h4>Χρησιμοποιώντας τα προϊόντα της Microsoft δωρεάν</h4>
-    </section>
+    <div id="typed-strings">
+            <h2>Καλωσήρθατε στο MS Products.</h2>
+    </div>
+    <span id="typed"></span>
+    <script>
+        var typed = new Typed('#typed', {
+          stringsElement: '#typed-strings',
+          backSpeed: 40,
+          typeSpeed: 40
+        });
+      </script>
     <!--End of welcome-->
 
     <!--Recent articles-->
