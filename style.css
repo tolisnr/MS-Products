@@ -10,43 +10,29 @@ html {
   scroll-behavior: smooth;
 }
 
+#root {
+  background: rgba(249, 246, 242, 0.94);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 30px 10%;
-  background: #9da39f;
-}
-
-.logo {
-  text-decoration: none;
-  color: #55834d;
-  font-family: "Sen", sans-serif;
-  font-size: 1.2rem;
-  font-weight: 400;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-style: italic;
+  padding: 30px 10%;
 }
 
-.logo h2 {
-  padding: 0.2rem;
-  bottom: 1rem;
-  left: 0.6rem;
-  font-family: "Pattaya", sans-serif;
-  letter-spacing: 1.8px;
-}
-
-.logo img {
-  width: 3.9rem;
-  height: 2.9rem;
+.logo {
+  color: #5f3232;
+  text-decoration: none;
+  font-family: Dank Mono, sans-serif;
 }
 
 .navlinks {
@@ -55,127 +41,43 @@ header {
 
 .navlinks li {
   display: inline-block;
+  color: #000000;
   padding: 0px 20px;
-  text-decoration: none;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  color: #e6e3e3;
 }
 
-.navlinks li a {
-  -webkit-transition: all 0.5s ease 0s;
-  transition: all 0.5s ease 0s;
+.navlinks a {
   text-decoration: none;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  color: #e6e3e3;
-}
-
-.navlinks li a:hover {
-  color: #4e414b;
+  color: #000;
+  font-family: Operator Mono, sans-serif;
+  font-style: italic;
+  font-weight: 325;
+  font-size: 19px;
+  line-height: 41px;
 }
 
 .contact {
-  border-radius: 11px;
-  background-color: #2a6399;
-  padding: 13px 11px;
-  width: 110px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#24dae6), color-stop(34.9%, #3fd7b1), color-stop(61.46%, #1cde83), to(#32f55d));
+  background: linear-gradient(180deg, #24dae6 0%, #3fd7b1 34.9%, #1cde83 61.46%, #32f55d 100%);
+  border-radius: 45px;
   border: none;
+  width: 110px;
   -webkit-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
-  text-decoration: none;
-  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
   font-weight: 400;
-  font-size: 16px;
-  color: #e6e3e3;
+  outline: none;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .contact:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  opacity: 0.87;
 }
 
-.fa-envelope {
+.contact img {
   margin-right: 3px;
-}
-
-.welcome {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.288)), to(transparent)), url("/img/gray-laptop.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.288), transparent), url("/img/gray-laptop.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 36rem;
-  text-align: center;
-  color: #547ac0;
-  padding-top: 15rem;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.recent {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-  background-color: rgba(218, 170, 99, 0.486);
-}
-
-.card {
-  width: 47%;
-  border-radius: 22px;
-  border: 3px solid #c4b0b0;
-  display: inline-block;
-  margin: 2rem;
-  padding: 3rem;
-}
-
-.send {
-  border: none;
-  background-color: #2d2257;
-  cursor: pointer;
-  padding: 1.5rem;
-  color: #489fd1;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  border-radius: 11px;
-  -webkit-transition: all 0.5s ease 0s;
-  transition: all 0.5s ease 0s;
-}
-
-.send:hover {
-  color: #9da39f;
-  background-color: rgba(45, 34, 87, 0.97);
-}
-
-form {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: flexbox;
-  text-align: center;
-}
-
-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background: #9da39f;
-  padding: 30px 10%;
-  font-family: "Poppins", sans-serif;
-  text-align: left;
-  color: #312d58;
 }
 /*# sourceMappingURL=style.css.map */
