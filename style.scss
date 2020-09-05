@@ -52,17 +52,23 @@ header {
   );
   border-radius: 45px;
   border: none;
-  width: 110px;
+  width: 142px;
+  height: 55px;
   transition: all 0.5s ease 0s;
-  font-size: 13px;
+  font-family: Cascadia Code, sans-serif;
+  font-size: 16px;
   font-weight: 400;
   outline: none;
   text-align: center;
   justify-content: center;
+  display: inline-block;
   &:hover {
     transform: scale(1.1);
   }
   img {
-	margin-right: 3px;
+    float: left;
+    width: 47px;
+    height: 45px;
+    padding-left: 10px;
   }
 }
