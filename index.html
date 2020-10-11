@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="MS Products-Χρησιμοποιώντας τα προϊόντα της Microsoft δωρεάν">
+    <meta name="keywords" content="microsoft, office, office365, windows, windows10">
+    <meta name="author" content="MS Products">
+    <title>MS Products | Χρησιμοποιώντας τα προϊόντα της Microsoft δωρεάν</title>
+    <link rel="icon" href="/img/microsoft.svg">
+    <link href="./style.css" type="text/css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/648caea1e3.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+</head>
+<body>
+
+    <div id="root">
+    <!--Header-->
+    <header>
+        <a href="/" class="logo"><h2>
+            < MS Products />
+        </h2></a>  
+        <nav>
+            <ul class="navlinks">
+                <li><a href="/">Home</a></li>
+                <li><a href="/#posts">Posts</a></li>
+                <li><a href="/#about">About</a></li>
+            </ul>
+        </nav>
+        <a href="/#form">
+            <button class="contact">
+                <img src="/img/email.svg" alt="email" />
+                Contact
+            </button>
+        </a>
+    </header>
+    <!--End of header-->
+
+    <!--Welcome-->
+    <div id="typed-strings">
+            <h2>Καλωσήρθατε στο MS Products.</h2>
+    </div>
+    <span id="typed"></span>
+    <!--End of welcome-->
+</div>
+    <!--Recent articles-->
+        <section class="recent">
+                <div class="firstcard card" id="posts">
+                    <img src="#" alt="image">
+                    <h2>Office 365</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, facilis?</p>
+                    <a href="#" class="button">Button</a>
+                </div>
+                <div class="secondcard card" id="posts">
+                    <img src="#" alt="image">
+                    <h2>Windows 10</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, facilis?</p>
+                    <a href="#" class="button">Button</a>
+                </div>
+                <div class="thirdcard card" id="posts">
+                    <img src="#" alt="image">
+                    <h2>Office 2019</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, facilis?</p>
+                    <a href="#" class="button">Button</a>
+                </div>
+        </section>
+    <!--End of recent articles-->
+
+    <!--Contact Form-->
+    <form method="POST" id="form" netlify>
+        <input type="name" name="name" placeholder="Το όνομα σας" class="input-name" required><br>
+        <input type="email" name="email" placeholder="Το email σας" class="input-email" required><br>
+        <textarea name="description" rows="10" cols="30"></textarea>
+        <button class="send">Send</button>
+    </form>
+    <!--End of contact form-->
+
+        <!--Footer-->
+        <footer>
+            <div class="copyright">
+            &copy;MS Products
+            </div>
+            <div class="social">
+                <a href="https://github.com/tolisnr" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </footer>
+        <!--End of footer-->
+        <script src="./app.js"></script>
+</body>
+</html>
