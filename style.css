@@ -64,15 +64,7 @@ header {
   height: 55px;
   -webkit-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
-  font-family: Cascadia Code, sans-serif;
-  font-size: 16px;
-  font-weight: 400;
   outline: none;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: inline-block;
 }
 
 .contact:hover {
@@ -85,5 +77,18 @@ header {
   width: 47px;
   height: 45px;
   padding-left: 10px;
+}
+
+.contact .contact-text {
+  font-family: Cascadia Code, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: inline-block;
+  padding: 14px;
+  color: #F9FCDC;
 }
 /*# sourceMappingURL=style.css.map */

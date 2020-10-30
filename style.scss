@@ -55,13 +55,7 @@ header {
   width: 142px;
   height: 55px;
   transition: all 0.5s ease 0s;
-  font-family: Cascadia Code, sans-serif;
-  font-size: 16px;
-  font-weight: 400;
   outline: none;
-  text-align: center;
-  justify-content: center;
-  display: inline-block;
   &:hover {
     transform: scale(1.1);
   }
@@ -70,5 +64,15 @@ header {
     width: 47px;
     height: 45px;
     padding-left: 10px;
+  }
+  .contact-text {
+    font-family: Cascadia Code, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    justify-content: center;
+    display: inline-block;
+    padding: 14px;
+    color: #F9FCDC;
   }
 }
