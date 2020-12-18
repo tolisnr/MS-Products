@@ -4,9 +4,6 @@
 # Project Javascript file
 projects.js
 
-#Express node modules
-/node_modules
 
 #JSON file
-package-lock.json
 package.json
